@@ -19,6 +19,7 @@ const Content = (props) => {
       </p>
       <p>
         {props.semestr3}
+
       </p>
     </div>
   )
@@ -49,7 +50,7 @@ const App = () => {
   return (
     <div>
      <Header course={course}/>
-     <Content semestr1={s1} semestr2={ s2} semestr3={ s3}/>
+     <Content semestr1={s1} semestr2={s2} semestr3={s3}/>
      <Total number={n}/>
       </div>
   )
